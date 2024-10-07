@@ -1,8 +1,8 @@
 function checkAnswer() {
     let correctAnswer = "4";
-    let UserAnswer = document.querySelector('input[name="quiz"]:checked').value;
+    let userAnswer = document.querySelector('input[name="quiz"]:checked').value;
 
-    if(correctAnswer === UserAnswer ){
+    if(correctAnswer === userAnswer ){
 
         document.getElementById("feedback").textContent = "Correct ! Well done"
     } else {
